@@ -1,4 +1,3 @@
-﻿
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -114,7 +113,7 @@ class Program
 
                 if (!CitiesAvailable(lastCity))
                 {
-                    Console.WriteLine("Компьютер победил! Все города на букву '" + char.ToUpper(lastCity.Last()) + "' закончились.");
+                    Console.WriteLine("Игрок победил! Все города на букву '" + char.ToUpper(lastCity.Last()) + "' закончились.");
                     break;
                 }
             }
@@ -134,7 +133,7 @@ class Program
 
                     if (!CitiesAvailable(lastCity))
                     {
-                        Console.WriteLine("Игрок победил! Все города на букву '" + char.ToUpper(lastCity.Last()) + "' закончились.");
+                        Console.WriteLine("Компьютер победил! Все города на букву '" + char.ToUpper(lastCity.Last()) + "' закончились.");
                         break;
                     }
                 }
